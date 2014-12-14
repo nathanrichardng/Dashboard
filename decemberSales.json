@@ -1,0 +1,14 @@
+{
+	"sales": [
+		{"date" : "Dec 1", "itemNum": "22746", "itemName": "Galaxy S5", "profit": "$55.27"},
+		{"date" : "Dec 1", "itemNum": "32649", "itemName": "2GB Data Plan", "profit": "$7.82"},
+		{"date" : "Dec 1", "itemNum": "12597", "itemName": "Earbuds", "profit": "$2.35"},
+		{"date" : "Dec 1", "itemNum": "02449", "itemName": "$25 Google Play Card", "profit": "$5.32"},
+		{"date" : "Dec 2", "itemNum": "01649", "itemName": "Super Smash Bros", "profit": "$13.27"},
+		{"date" : "Dec 2", "itemNum": "06994", "itemName": "Wireless Mouse", "profit": "$3.82"},
+		{"date" : "Dec 2", "itemNum": "06994", "itemName": "Panasonic 48-in TV", "profit": "$200.82"},
+		{"date" : "Dec 2", "itemNum": "77694", "itemName": "Hattori 8-in cutting knife", "profit": "$17.31"},
+		{"date" : "Dec 2", "itemNum": "82759", "itemName": "Blender", "profit": "$27.12"},
+		{"date" : "Dec 3", "itemNum": "11375", "itemName": "Iphone 6S", "profit": "$79.82"}
+	]
+}

@@ -1,0 +1,166 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	background-color: #e1e1e1;
+	height: 100%;
+}
+
+ul {
+	padding:0px;
+	margin: 0px;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+	color: inherit;
+	text-decoration: none;
+}
+
+.navbar {
+	background-color: steelblue;
+	color:#fff;
+	height: 100px;
+	padding-top: 22px;
+	position: relative;
+	z-index: 10;
+}
+
+.navbar a:hover, .navbar a:focus {
+	color: #333;
+}
+
+.active {
+	background-color: #333;
+}
+
+#navbar {
+	background-color: steelblue;
+}
+
+.navbar-brand {
+	padding:0px;
+}
+
+.logo {
+	max-height: 57px;
+	width: auto;
+}
+
+button.navbar-toggle {
+	background-color: #333;
+}
+
+button.navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.big-text {
+	font-size: 58px;
+	border-bottom: 2px solid #333;
+	border-radius: 5px;
+}
+
+.sidebar {
+	padding: 10px;
+	padding-left: 0px;
+	margin: 0px;
+	overflow: hidden;
+	height: 100%;
+	min-height: 700px;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+}
+
+.sidebar li {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+.sidebar li:hover {
+	background-color: steelblue;
+}
+
+.widget {
+	height:320px;
+	margin: 10px;
+	border: 2px solid #333;
+	background-color: #FAF7E3;
+	box-shadow: 10px 10px 5px #888888;
+	overflow-y:auto;
+}
+
+.widget:hover {
+	box-shadow: 10px 10px 5px steelblue;
+}
+
+.margin-left {
+	margin-left: 10px;
+}
+
+#lineChart{
+	width:80%;
+	height:60%;
+	margin-left: 10%;
+}
+
+#gaugeChart {
+	height:auto;
+}
+
+#donutChart {
+	height: 75%;
+}
+
+#salesReport th, #salesReport td {
+	text-align: left;
+	width: 20%;
+	padding: 10px;
+}
+
+#salesReport tr:hover {
+	cursor: pointer;
+	background-color: #e1e1e1;
+}
+
+footer {
+	margin-top: 10px;
+	padding: 20px;
+	background-color: #9C9C9C;
+	color: #fff;
+	text-shadow: 1px 1px #333;
+}
+
+footer .footer-inner {
+	background-color: gray;
+	padding: 15px;
+	height: 100%;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer .copy {
+	text-shadow:none;
+	margin-top: 5px;
+}
+
+@media(max-width: 768px) {
+	.big-text {
+		text-align: center;
+	}
+}
+
+@media(max-width: 350px) {
+	.big-text {
+		font-size: 48px;
+	}
+}
